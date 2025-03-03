@@ -6,7 +6,7 @@
     align-items: center;
     padding: 0 20px;
     border-bottom: 2px solid #eee;
-    margin-left: 250px; /* ✅ Ensure Navbar Stays Aligned With Content */
+    margin-left: 370px; /* ✅ Ensure Navbar Stays Aligned With Content */
   }
   
   .search-bar {

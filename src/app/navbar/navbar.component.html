@@ -1,5 +1,10 @@
 <nav class="navbar">
-    <input type="text" placeholder="Search books..." class="search-bar">
+  <input class="search-bar"
+  type="text" 
+  placeholder="Search" 
+  [(ngModel)]="searchText" 
+  (input)="onSearchChange()"
+>
     <div class="profile">
       <span class="icon">🔔 <span class="badge">4</span></span>
       <span class="icon">❤️ <span class="badge">9</span></span>

@@ -1,8 +1,9 @@
 <div class="overdue-page">
+  <h1>Overdue Charges</h1>
 
+  <div class="filter-container">
+    <button class="filter-btn">Filter <span class="filter-icon">⚙️</span></button>
+  </div>
 
-
-
-
-  <app-table [columns]="columns" [data]="data" tableType="overdue-charges"></app-table>
+  <app-table [columns]="columns" [data]="filteredData" tableType="overdue-charges"></app-table>
 </div>
