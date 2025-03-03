@@ -1,0 +1,31 @@
+[
+    {
+      "title": "University Event",
+      "date": "24 Jul, 2024",
+      "time": "Mon, 10:00am",
+      "icon": "📅",
+      "color": "#4A90E2"
+    },
+    {
+      "title": "Workshop",
+      "date": "25 Jul, 2024",
+      "time": "Tue, 3:00pm",
+      "icon": "🎤",
+      "color": "#F5A623"
+    },
+    {
+      "title": "Seminar",
+      "date": "26 Jul, 2024",
+      "time": "Wed, 10:00am",
+      "icon": "📖",
+      "color": "#9B9B9B"
+    },
+    {
+      "title": "Workshop",
+      "date": "27 Jul, 2024",
+      "time": "Thu, 11:00am",
+      "icon": "🛠",
+      "color": "#F8A488"
+    }
+  ]
+  

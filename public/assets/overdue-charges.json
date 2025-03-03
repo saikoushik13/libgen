@@ -1,0 +1,33 @@
+{
+    "columns": [
+      { "key": "image", "label": " " },
+      { "key": "name", "label": "Name" },
+      { "key": "prn", "label": "PRN No." },
+      { "key": "department", "label": "Dept." },
+      { "key": "type", "label": "Type" },
+      { "key": "title", "label": "Title" },
+      { "key": "code", "label": "Code" },
+      { "key": "issueDate", "label": "Issue Date" },
+      { "key": "dueDate", "label": "Due Date" },
+      { "key": "returnDate", "label": "Return Date" },
+      { "key": "charges", "label": "Charges" },
+      { "key": "status", "label": "Status" }
+    ],
+    "data": [
+      {
+        "image": "https://img.freepik.com/premium-photo/adult-man-serene-face-expression-studio-portrait_53876-75419.jpg?semt=ais_hybrid",
+        "name": "Gautam Dandekar",
+        "prn": "MITU23BFAAT02",
+        "department": "SoFA",
+        "type": "Book",
+        "title": "The Design of Everyday...",
+        "code": "2555VD",
+        "issueDate": "5 Jul 2024",
+        "dueDate": "14 Jul 2024",
+        "returnDate": "17 Jul 2024",
+        "charges": "15/-",
+        "status": "Unpaid"
+      }
+    ]
+  }
+  

@@ -1,0 +1,15 @@
+<div class="category-page">
+    <h1>{{ categoryName }}</h1>
+    
+    <div class="database-container" *ngIf="items.length > 0; else noData">
+      <div class="database-card" *ngFor="let item of items">
+        <img [src]="item.image" alt="{{ item.title }}" class="database-icon">
+        <h3>{{ item.title }}</h3>
+      </div>
+    </div>
+  
+    <ng-template #noData>
+      <p>No items found in {{ categoryName }}.</p>
+    </ng-template>
+  </div>
+  

@@ -1,0 +1,38 @@
+.e-database-page {
+    margin-left: 270px; /* ✅ Adjust for sidebar */
+    padding: 20px;
+    background: #f8eaff;
+    min-height: 100vh;
+  }
+  
+  /* Grid for Database Categories */
+  .database-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  /* Individual Database Cards */
+  .database-card {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.2s;
+    cursor: pointer;
+  }
+  
+  .database-card:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Icons for Database Categories */
+  .database-icon {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+    margin-bottom: 10px;
+  }
+  

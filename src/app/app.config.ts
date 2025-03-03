@@ -1,9 +1,25 @@
-import { ApplicationConfig, provideZoneChangeDetection } from '@angular/core';
-import { provideRouter } from '@angular/router';
+import { ApplicationConfig } from '@angular/core';
+import { provideRouter, Routes } from '@angular/router';
+import { DashboardComponent } from './dashboard/dashboard.component';
+import { CollectionComponent } from './collection/collection.component';
+import { CategoryComponent } from './category/category.component';
+import { EDatabaseComponent } from './e-database/e-database.component';
+import { HistoryComponent } from './history/history.component';
+import { OverdueChargesComponent } from './overdue-charges/overdue-charges.component';
+import { HelpDeskComponent } from './helpdesk/helpdesk.component';
 
-import { routes } from './app.routes';
-import { provideClientHydration, withEventReplay } from '@angular/platform-browser';
+const routes: Routes = [
+  { path: '', component: DashboardComponent },
+  { path: 'collection', component: CollectionComponent },
+  { path: 'e-database', component: EDatabaseComponent },
+  { path: 'e-database', component: EDatabaseComponent },
+  { path: 'collection/:category', component: CategoryComponent },
+  { path: 'e-database/:category', component: CategoryComponent },
+  { path: 'history', component: HistoryComponent },
+  { path: 'overdue', component: OverdueChargesComponent },
+  { path: 'helpdesk', component: HelpDeskComponent }
+];
 
 export const appConfig: ApplicationConfig = {
-  providers: [provideZoneChangeDetection({ eventCoalescing: true }), provideRouter(routes), provideClientHydration(withEventReplay())]
+  providers: [provideRouter(routes)]
 };

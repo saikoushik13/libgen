@@ -1,0 +1,30 @@
+<div class="dashboard">
+    <h1>Welcome, koushik!</h1>
+  
+    <div class="stats">
+      <div class="stat-box">📖 Issued Books <span>1</span></div>
+      <div class="stat-box">⏳ Overdue Items <span>0</span></div>
+      <div class="stat-box">❤️ Saved Selections <span>3</span></div>
+      <div class="stat-box">📌 Item Reservations <span>0</span></div>
+    </div>
+  
+    <div class="content-section">
+      <div class="new-arrivals">
+        <h2>New Arrivals</h2>
+        <div class="book-container">
+           <app-book-card
+          *ngFor="let book of books"
+          [title]="book.title"
+          [author]="book.author"
+          [image]="book.image"
+        ></app-book-card>
+        </div>
+      </div>
+  
+      <div class="upcoming-events">
+        <h2>Upcoming Events</h2>
+        <app-event-list></app-event-list>
+      </div>
+    </div>
+  </div>
+  

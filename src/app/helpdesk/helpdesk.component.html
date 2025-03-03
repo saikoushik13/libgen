@@ -1,0 +1,42 @@
+<div class="helpdesk-page">
+    <h1>Help Desk</h1>
+  
+    <form [formGroup]="helpdeskForm" (ngSubmit)="submitForm()">
+      <div class="form-row">
+        <label>Name :</label>
+        <input type="text" formControlName="name">
+        
+        <label>PRN No. :</label>
+        <input type="text" formControlName="prn">
+      </div>
+  
+      <div class="form-row">
+        <label>Department :</label>
+        <select formControlName="department">
+          <option value="" disabled selected>Select</option>
+          <option value="CSE">CSE</option>
+          <option value="ECE">ECE</option>
+          <option value="MECH">MECH</option>
+        </select>
+  
+        <label>Email :</label>
+        <input type="email" formControlName="email">
+      </div>
+  
+      <div class="form-row">
+        <label>Title of Enquiry :</label>
+        <input type="text" formControlName="title">
+      </div>
+  
+      <div class="form-row">
+        <label>Description :</label>
+        <textarea formControlName="description"></textarea>
+      </div>
+  
+      <div class="button-row">
+        <button type="submit" class="submit-btn" [disabled]="helpdeskForm.invalid">Submit</button>
+        <button type="button" class="cancel-btn" (click)="cancelForm()">Cancel</button>
+      </div>
+    </form>
+  </div>
+  

@@ -1,0 +1,17 @@
+<div class="category-page">
+    
+    
+    <div class="book-container" *ngIf="items.length > 0; else noData">
+      <app-book-card
+        *ngFor="let item of items"
+        [title]="item.title"
+        [author]="item.author"
+        [image]="item.image"
+      ></app-book-card>
+    </div>
+  
+    <ng-template #noData>
+      <p>No items found in {{ categoryName }}.</p>
+    </ng-template>
+  </div>
+  

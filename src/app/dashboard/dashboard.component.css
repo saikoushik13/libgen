@@ -1,0 +1,60 @@
+.dashboard {
+    margin-left: 270px; /* ✅ Ensure Sidebar Doesn't Overlap */
+    padding: 20px;
+    background: #f8eaff;
+    min-height: 100vh;
+    display: flex; /* ✅ Fix Layout */
+    flex-direction: column;
+  }
+  
+  
+  h1 {
+    font-size: 24px;
+  }
+  
+  .stats {
+    display: flex;
+    gap: 10px;
+  }
+
+  .new-arrivals, .upcoming-events{
+    margin-top:20px;
+    background: white; /* ✅ White background */
+  border-radius: 12px; /* ✅ Rounded edges */
+  padding: 20px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* ✅ Light shadow */
+  }
+
+  
+  .stat-box {
+    background: white;
+    padding: 15px;
+    border-radius: 12px;
+    font-weight: bold;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .book-container  {
+    display: flex;
+    gap: 15px;
+    overflow-x: auto; /* ✅ Scrollable book list */
+  }
+  
+  .content-section {
+    display: flex; /* ✅ Ensure New Arrivals & Upcoming Events Are Side By Side */
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+  }
+
+  
+  
+  .new-arrivals {
+    flex: 2; /* ✅ Allow More Space for Books */
+  }
+  
+  .upcoming-events {
+    flex: 1; /* ✅ Make Upcoming Events Smaller */
+    max-width: 300px; /* ✅ Limit Width for Better Alignment */
+  }
+  

@@ -1,0 +1,10 @@
+<div class="e-database-page">
+    <h1>E-Database</h1>
+    <div class="database-grid">
+      <div class="database-card" *ngFor="let db of databases" (click)="navigateToDatabase(db.route)">
+        <img [src]="db.icon" alt="{{ db.name }}" class="database-icon">
+        <h3>{{ db.name }}</h3>
+      </div>
+    </div>
+  </div>
+  

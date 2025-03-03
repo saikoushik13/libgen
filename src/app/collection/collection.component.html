@@ -1,0 +1,9 @@
+<div class="collection-page">
+  <h1>Collection</h1>
+  <div class="collection-grid">
+    <div class="collection-card" *ngFor="let category of categories" (click)="navigateToCategory(category.route)">
+      <img [src]="category.icon" alt="{{ category.name }}" class="collection-icon">
+      <h3>{{ category.name }}</h3>
+    </div>
+  </div>
+</div>

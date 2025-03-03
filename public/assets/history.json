@@ -1,0 +1,38 @@
+{
+    "columns": [
+      { "key": "image", "label": " " },
+      { "key": "title", "label": "Title" },
+      { "key": "author", "label": "Author" },
+      { "key": "publisher", "label": "Publisher" },
+      { "key": "code", "label": "Book Code" },
+      { "key": "issueDate", "label": "Issue Date" },
+      { "key": "dueDate", "label": "Due Date" },
+      { "key": "returnDate", "label": "Return Date" },
+      { "key": "overdue", "label": "Overdue" }
+    ],
+    "data": [
+      {
+        "image": "https://tse1.mm.bing.net/th?id=OIP._eIhg14p_4Yk_wbSG5_80QHaL8&pid=Api",
+        "title": "Is the Moon Upside Down",
+        "author": "John Barrow",
+        "publisher": "Penguin Books",
+        "code": "785.46 PAR",
+        "issueDate": "17 Aug 2024",
+        "dueDate": "27 Aug 2024",
+        "returnDate": "25 Aug 2024",
+        "overdue": "-"
+      },
+      {
+        "image": "https://tse3.mm.bing.net/th?id=OIP.rFH_-proWk5A_3JcPaToNAHaLL&pid=Api",
+        "title": "To Kill a Mockingbird",
+        "author": "Harper Lee",
+        "publisher": "J.B. Lippincott & Co.",
+        "code": "965.24 SFT",
+        "issueDate": "21 Aug 2024",
+        "dueDate": "31 Aug 2024",
+        "returnDate": "25 Aug 2024",
+        "overdue": "-"
+      }
+    ]
+  }
+  

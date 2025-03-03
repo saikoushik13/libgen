@@ -1,0 +1,12 @@
+.history-page {
+  margin-left: 220px; /* ✅ Push content right to avoid sidebar overlap */
+  padding: 20px;
+  background: #f8eaff;
+  min-height: 100vh;
+}
+
+/* ✅ Ensure the table has enough left margin */
+.table-container {
+  margin-left: 20px; /* ✅ Add left margin */
+  max-width: calc(100% - 50px); /* ✅ Prevent it from going too wide */
+}

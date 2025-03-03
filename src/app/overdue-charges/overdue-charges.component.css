@@ -1,0 +1,27 @@
+.overdue-page {
+    margin-left: 200px; /* ✅ Adjust for sidebar */
+    padding: 20px;
+    background: #f8eaff;
+    min-height: 100vh;
+  }
+  
+  .filter-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 15px;
+  }
+  
+  .filter-btn {
+    background: #673ab7;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .filter-btn:hover {
+    background: #5a2ea0;
+  }
+  

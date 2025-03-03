@@ -1,0 +1,31 @@
+<div class="table-container">
+  <table>
+    <thead>
+      <tr>
+        <th *ngFor="let col of columns">{{ col.label }}</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let row of data">
+        <td *ngFor="let col of columns">
+          <ng-container *ngIf="col.key === 'image'">
+            <img 
+              [src]="row[col.key]" 
+              alt="Image"
+              [ngClass]="{
+                'history-image': tableType === 'history',
+                'overdue-image': tableType === 'overdue-charges'
+              }"
+            >
+          </ng-container>
+          <ng-container *ngIf="col.key === 'status'">
+            <span [ngClass]="row[col.key] === 'Unpaid' ? 'unpaid' : ''">{{ row[col.key] }}</span>
+          </ng-container>
+          <ng-container *ngIf="col.key !== 'image' && col.key !== 'status'">
+            {{ row[col.key] }}
+          </ng-container>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>

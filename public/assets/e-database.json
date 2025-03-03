@@ -1,0 +1,86 @@
+{
+  "e-books": [
+    {
+      "title": "Digital Transformation",
+      "author": "Thomas M. Siebel",
+      "image": "https://covers.openlibrary.org/b/id/11153228-L.jpg"
+    },
+    {
+      "title": "Artificial Intelligence: A Guide for Thinking Humans",
+      "author": "Melanie Mitchell",
+      "image": "https://covers.openlibrary.org/b/id/10958314-L.jpg"
+    }
+  ],
+  "e-j-gate": [
+    {
+      "title": "Scientific Research Methods",
+      "author": "Donald R. Cooper",
+      "image": "https://covers.openlibrary.org/b/id/10431754-L.jpg"
+    },
+    {
+      "title": "Journal of Machine Learning Research",
+      "author": "Various Authors",
+      "image": "https://covers.openlibrary.org/b/id/10736797-L.jpg"
+    }
+  ],
+  "e-elsevier": [
+    {
+      "title": "Introduction to Algorithms",
+      "author": "Thomas H. Cormen",
+      "image": "https://covers.openlibrary.org/b/id/10639203-L.jpg"
+    },
+    {
+      "title": "The Science of Interstellar",
+      "author": "Kip Thorne",
+      "image": "https://covers.openlibrary.org/b/id/11052494-L.jpg"
+    }
+  ],
+  "e-manupatra": [
+    {
+      "title": "The Rule of Law",
+      "author": "Tom Bingham",
+      "image": "https://covers.openlibrary.org/b/id/10432657-L.jpg"
+    },
+    {
+      "title": "Indian Constitutional Law",
+      "author": "M.P. Jain",
+      "image": "https://covers.openlibrary.org/b/id/10759883-L.jpg"
+    }
+  ],
+  "e-air-online": [
+    {
+      "title": "Judicial Review and the Constitution",
+      "author": "Christopher Forsyth",
+      "image": "https://covers.openlibrary.org/b/id/10368794-L.jpg"
+    },
+    {
+      "title": "Human Rights and Development",
+      "author": "Peter Uvin",
+      "image": "https://covers.openlibrary.org/b/id/10809713-L.jpg"
+    }
+  ],
+  "e-e-shodh": [
+    {
+      "title": "Research Methodology",
+      "author": "C.R. Kothari",
+      "image": "https://covers.openlibrary.org/b/id/10805704-L.jpg"
+    },
+    {
+      "title": "Academic Writing for Graduate Students",
+      "author": "John M. Swales",
+      "image": "https://covers.openlibrary.org/b/id/10914314-L.jpg"
+    }
+  ],
+  "e-previous-papers": [
+    {
+      "title": "UPSC Previous Year Papers",
+      "author": "Compilation",
+      "image": "https://covers.openlibrary.org/b/id/10857423-L.jpg"
+    },
+    {
+      "title": "GATE Mechanical Engineering",
+      "author": "R.K. Bansal",
+      "image": "https://covers.openlibrary.org/b/id/10992834-L.jpg"
+    }
+  ]
+}

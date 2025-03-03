@@ -1,0 +1,9 @@
+<div class="event-list">
+  <div class="event-card" *ngFor="let event of events" [style.borderLeft]="'5px solid ' + event.color">
+    <span class="event-icon">{{ event.icon }}</span>
+    <div class="event-details">
+      <h3>{{ event.title }}</h3>
+      <p>{{ event.date }} - {{ event.time }}</p>
+    </div>
+  </div>
+</div>

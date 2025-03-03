@@ -1,0 +1,13 @@
+.category-page {
+    margin-left: 270px; /* ✅ Adjust for sidebar */
+    padding: 20px;
+    background: #f8eaff;
+    min-height: 100vh;
+  }
+  
+  .book-container {
+    display: flex;
+    gap: 15px;
+    overflow-x: auto;
+  }
+  
